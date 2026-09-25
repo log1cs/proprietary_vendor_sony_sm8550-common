@@ -170,7 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8550-common/proprietary/vendor/etc/init/trusteduilistener.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trusteduilistener.rc \
     vendor/sony/sm8550-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/sony/sm8550-common/proprietary/vendor/etc/init/vendor.dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dpmd.rc \
-    vendor/sony/sm8550-common/proprietary/vendor/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc \
     vendor/sony/sm8550-common/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/sony/sm8550-common/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/sony/sm8550-common/proprietary/vendor/etc/init/vendor.qti.diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag.rc \
@@ -442,7 +441,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.2-impl \
     vendor.qti.hardware.soter@1.0-impl \
     vulkan.adreno \
-    jcos_nq_client \
     lib-imscommon \
     lib-imsdpl \
     lib-imsqimf \
@@ -838,8 +836,6 @@ PRODUCT_PACKAGES += \
     libwvutil \
     libxml \
     libxtadapter \
-    ls_nq_client \
-    nfc_nci.nqx.default.hw \
     qcrilInterfaces \
     qcrilMarshal \
     qcrilNrQmiModule \
@@ -858,7 +854,6 @@ PRODUCT_PACKAGES += \
     qtiPeripheralMgr \
     qtiril-utils \
     qtiwakelock \
-    se_nq_extn_client \
     sensors.ssc \
     libasphere \
     libquasar \
@@ -877,7 +872,6 @@ PRODUCT_PACKAGES += \
     vendor.libdpmframework \
     vendor.libdpmtcm \
     vendor.libmwqemiptablemgr \
-    vendor.nxp.hardware.nfc@2.0 \
     vendor.qti.data.factory@2.0 \
     vendor.qti.data.factory@2.1 \
     vendor.qti.data.factory@2.2 \
@@ -1035,7 +1029,6 @@ PRODUCT_PACKAGES += \
     vendor.somc.hardware.aidlmiscta-V1-ndk_platform \
     vendor.somc.hardware.aidlradio-V1-ndk \
     vendor.somc.hardware.miscta@1.0 \
-    vendor.somc.hardware.nfc@1.0 \
     vendor.somc.hardware.radio@1.0 \
     vendor.somc.hardware.security.secd@1.1 \
     vendor.somc.hardware.videoeffect-V1-impl \
@@ -1295,7 +1288,6 @@ PRODUCT_PACKAGES += \
     qconfigservice \
     qcrilNrd \
     vendor.display.color@1.0-service \
-    vendor.nxp.hardware.nfc@2.0-service \
     vendor.qti.esepowermanager@1.1-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.factory@1.0-service \
