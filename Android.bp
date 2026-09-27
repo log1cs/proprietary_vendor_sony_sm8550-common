@@ -25827,62 +25827,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-cc_prebuilt_binary {
-    name: "ssr_setup",
-    owner: "sony",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/ssr_setup",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "libmdmdetect",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "subsystem_ramdump",
-    owner: "sony",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/subsystem_ramdump",
-            ],
-            shared_libs: [
-                "libmdmdetect",
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
 sh_binary {
     name: "system_dlkm_modprobe",
     owner: "sony",

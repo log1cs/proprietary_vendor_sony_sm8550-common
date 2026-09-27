@@ -1348,8 +1348,6 @@ PRODUCT_PACKAGES += \
     slim_daemon \
     sscrpcd \
     ssgtzd \
-    ssr_setup \
-    subsystem_ramdump \
     system_dlkm_modprobe \
     ta_qmi_service \
     tad \
