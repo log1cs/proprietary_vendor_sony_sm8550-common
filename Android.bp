@@ -24642,14 +24642,6 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.qti.kernel",
-    owner: "sony",
-    src: "proprietary/vendor/bin/init.qti.kernel.sh",
-    filename: "init.qti.kernel.sh",
-    soc_specific: true,
-}
-
-sh_binary {
     name: "init.qti.media",
     owner: "sony",
     src: "proprietary/vendor/bin/init.qti.media.sh",
