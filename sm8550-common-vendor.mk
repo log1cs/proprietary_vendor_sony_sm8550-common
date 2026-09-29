@@ -34,6 +34,117 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8550-common/proprietary/system_ext/etc/seccomp_policy/wfdservice64.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/wfdservice64.policy \
     vendor/sony/sm8550-common/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/sony/sm8550-common/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/MAUNAKEA_FW_DATA_1_0x16903000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_1_0x16903000.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/MAUNAKEA_FW_DATA_1_0x16903040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_1_0x16903040.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/MAUNAKEA_FW_DATA_2_0x16903000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_2_0x16903000.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/MAUNAKEA_FW_DATA_2_0x16903040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_2_0x16903040.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/MAUNAKEA_FW_DATA_4_0x16903000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_4_0x16903000.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/MAUNAKEA_FW_DATA_4_0x16903040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_4_0x16903040.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/MAUNAKEA_FW_DATA_5_0x16903000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_5_0x16903000.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/MAUNAKEA_FW_DATA_5_0x16903040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_5_0x16903040.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/Morpho/CLBokeh/MorphoBokeh.bin.89ec02e:$(TARGET_COPY_OUT_VENDOR)/camera/Morpho/CLBokeh/MorphoBokeh.bin.89ec02e \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/Morpho/CLBokeh/MorphoFormatUtil.bin.347db6fd:$(TARGET_COPY_OUT_VENDOR)/camera/Morpho/CLBokeh/MorphoFormatUtil.bin.347db6fd \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/Morpho/Halide/halide_13831235:$(TARGET_COPY_OUT_VENDOR)/camera/Morpho/Halide/halide_13831235 \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/Morpho/Halide/halide_13849903:$(TARGET_COPY_OUT_VENDOR)/camera/Morpho/Halide/halide_13849903 \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/Morpho/Halide/halide_13896217:$(TARGET_COPY_OUT_VENDOR)/camera/Morpho/Halide/halide_13896217 \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/color_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/color_ctrl.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/dataflow.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/dataflow.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/draw_comp_histogram.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/draw_comp_histogram.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/draw_comp_pocky.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/draw_comp_pocky.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/dual_bokeh_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/dual_bokeh_comp.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/exposure_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/exposure_ctrl.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/exposure_ctrl_diagram.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/exposure_ctrl_diagram.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/eye_stabilizer.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/eye_stabilizer.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/face_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/face_detector.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/face_detector_soda.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/face_detector_soda.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/flicker_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/flicker_detector.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/food_comp_yummy.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/food_comp_yummy.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/hal_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/hal_ctrl.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/hal_ctrl_ife_lsc41.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/hal_ctrl_ife_lsc41.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/hdr_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/hdr_comp.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/idt_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/idt_ctrl.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/image_conv.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/image_conv.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/image_conv_cheesescone.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/image_conv_cheesescone.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/image_conv_marble.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/image_conv_marble.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/image_conv_raisin.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/image_conv_raisin.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/image_conv_zunda.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/image_conv_zunda.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/lens_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/lens_ctrl.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/lens_ctrl_common.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/lens_ctrl_common.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/motion_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/motion_detector.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/motion_detector_sumomo.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/motion_detector_sumomo.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/motion_estimation.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/motion_estimation.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/object_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/object_detector.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/object_tracker.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/object_tracker.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/prc_image_conv.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/prc_image_conv.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/raw_conv_parisbrest.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/raw_conv_parisbrest.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/raw_proc_platform.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/raw_proc_platform.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/recognize_map_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/recognize_map_comp.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM12BC9/scene_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC9/scene_detector.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/color_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/color_ctrl.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/dataflow.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/dataflow.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/draw_comp_histogram.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/draw_comp_histogram.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/draw_comp_pocky.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/draw_comp_pocky.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/dual_bokeh_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/dual_bokeh_comp.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/exposure_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/exposure_ctrl.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/exposure_ctrl_diagram.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/exposure_ctrl_diagram.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/eye_stabilizer.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/eye_stabilizer.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/face_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/face_detector.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/face_detector_soda.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/face_detector_soda.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/flicker_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/flicker_detector.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/food_comp_yummy.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/food_comp_yummy.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/hal_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/hal_ctrl.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/hal_ctrl_ife_lsc41.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/hal_ctrl_ife_lsc41.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/hdr_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/hdr_comp.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/idt_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/idt_ctrl.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/image_conv.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/image_conv.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/image_conv_cheesescone.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/image_conv_cheesescone.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/image_conv_marble.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/image_conv_marble.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/image_conv_raisin.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/image_conv_raisin.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/image_conv_zunda.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/image_conv_zunda.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/lens_ctrl_common.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/lens_ctrl_common.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/motion_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/motion_detector.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/motion_detector_sumomo.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/motion_detector_sumomo.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/motion_estimation.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/motion_estimation.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/object_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/object_detector.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/object_tracker.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/object_tracker.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/prc_image_conv.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/prc_image_conv.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/raw_conv_parisbrest.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/raw_conv_parisbrest.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/raw_proc_platform.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/raw_proc_platform.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/recognize_map_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/recognize_map_comp.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SEM52BC0/scene_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM52BC0/scene_detector.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/SODA_HMN_BN0010-0001:$(TARGET_COPY_OUT_VENDOR)/camera/SODA_HMN_BN0010-0001 \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_animal_eye_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_animal_eye_detector.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_autoexposure.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_autoexposure.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_autowhitebalance_00.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_autowhitebalance_00.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_face_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_face_detector.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_object_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_object_detector.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_recognize_map_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_recognize_map_comp.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_00.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_00.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_01.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_01.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_02.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_02.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_03.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_03.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_04.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_05.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_05.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_06.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_06.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_07.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_07.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_08.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_08.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_09.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_09.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_10.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_11.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_11.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_12.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_13.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_13.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_14.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_14.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_15.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_15.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_16.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_17.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_17.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_18.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_18.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_19.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_19.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_20.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_21.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_21.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_22.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_22.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/file_zunda_23.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_zunda_23.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/ois_correction_coefficient_imx888.dat:$(TARGET_COPY_OUT_VENDOR)/camera/ois_correction_coefficient_imx888.dat \
+    vendor/sony/sm8550-common/proprietary/vendor/camera/version.dat:$(TARGET_COPY_OUT_VENDOR)/camera/version.dat \
     vendor/sony/sm8550-common/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd \
     vendor/sony/sm8550-common/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__eai_2.10_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__eai_2.10_enpu3.pmd \
     vendor/sony/sm8550-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.7_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.7_enpu3.pmd \
@@ -62,6 +173,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8550-common/proprietary/vendor/etc/audio/sku_kalama/resourcemanager_kalama_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/resourcemanager_kalama_qrd.xml \
     vendor/sony/sm8550-common/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/sony/sm8550-common/proprietary/vendor/etc/batching.conf:$(TARGET_COPY_OUT_VENDOR)/etc/batching.conf \
+    vendor/sony/sm8550-common/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/sony/sm8550-common/proprietary/vendor/etc/charger_fw_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fw_fstab.qti \
     vendor/sony/sm8550-common/proprietary/vendor/etc/clstc_config_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/clstc_config_library.xml \
     vendor/sony/sm8550-common/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
@@ -189,10 +301,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8550-common/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/sony/sm8550-common/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/sony/sm8550-common/proprietary/vendor/etc/init/vendor.somc.hardware.aidlmiscta-somc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.somc.hardware.aidlmiscta-somc.rc \
+    vendor/sony/sm8550-common/proprietary/vendor/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc \
     vendor/sony/sm8550-common/proprietary/vendor/etc/init/vendor.somc.hardware.miscta@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.somc.hardware.miscta@1.0-service.rc \
     vendor/sony/sm8550-common/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/sony/sm8550-common/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/sony/sm8550-common/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
+    vendor/sony/sm8550-common/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/sony/sm8550-common/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/sony/sm8550-common/proprietary/vendor/etc/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml \
     vendor/sony/sm8550-common/proprietary/vendor/etc/lm/AppClassifierFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AppClassifierFeature.xml \
     vendor/sony/sm8550-common/proprietary/vendor/etc/lm/LightningLaunchesFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/LightningLaunchesFeature.xml \
@@ -371,27 +486,124 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8550-common/proprietary/vendor/etc/telephony_packages.xml:$(TARGET_COPY_OUT_VENDOR)/etc/telephony_packages.xml \
     vendor/sony/sm8550-common/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
     vendor/sony/sm8550-common/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
+    vendor/sony/sm8550-common/proprietary/vendor/etc/wifi/bdwlan.e17:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.e17 \
+    vendor/sony/sm8550-common/proprietary/vendor/etc/wifi/bdwlan.e30:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.e30 \
+    vendor/sony/sm8550-common/proprietary/vendor/etc/wifi/bdwlan.e31:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.e31 \
     vendor/sony/sm8550-common/proprietary/vendor/etc/wifi/icm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/icm.conf \
     vendor/sony/sm8550-common/proprietary/vendor/etc/wifi/kiwi_v2/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/kiwi_v2/WCNSS_qcom_cfg.ini \
     vendor/sony/sm8550-common/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
+    vendor/sony/sm8550-common/proprietary/vendor/etc/wifi/regdb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/regdb.bin \
     vendor/sony/sm8550-common/proprietary/vendor/etc/wifi/vendor_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/vendor_cmd.xml \
+    vendor/sony/sm8550-common/proprietary/vendor/etc/wifi/wifi_txpower.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wifi_txpower.conf \
     vendor/sony/sm8550-common/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/sony/sm8550-common/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b01 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b02 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b03 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b04 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b05 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b06 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b07 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b08 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b09 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b10 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b11 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b12 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b13 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b14 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b15 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b16 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b17 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b18 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b19 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.b20:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b20 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mbn \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mdt \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/L-cs35l45-dsp1-spk-cali.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/L-cs35l45-dsp1-spk-cali.wmfw \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/L-cs35l45-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/L-cs35l45-dsp1-spk-prot.wmfw \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/R-cs35l45-dsp1-spk-cali.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/R-cs35l45-dsp1-spk-cali.wmfw \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/R-cs35l45-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/R-cs35l45-dsp1-spk-prot.wmfw \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/a740_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_sqe.fw \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/a740_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.b00 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/a740_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.b01 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/a740_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.b02 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/a740_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.elf \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/a740_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.mbn \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/a740_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.mdt \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/cs40l20.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l20.bin \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/cs40l25a_a2h.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_a2h.bin \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/cs40l25a_a2h.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_a2h.wmfw \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/cs40l25a_a2h1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_a2h1.bin \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/cs40l25a_a2h2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_a2h2.bin \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/cs40l25a_a2h3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_a2h3.bin \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/cs40l25a_cal.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_cal.bin \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/cs40l25a_cal.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_cal.wmfw \
     vendor/sony/sm8550-common/proprietary/vendor/firmware/egisap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/egisap.mbn \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b00 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b01 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b02 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b03 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b04 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b05 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b06 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b07 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b08 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b09 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b10 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b11 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b12 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b13 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b14 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b15 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b16 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b17 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b18 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b19 \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mbn \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/evass.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mdt \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/gmu_gen70200.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70200.bin \
     vendor/sony/sm8550-common/proprietary/vendor/firmware/tzsecuredata.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsecuredata.mbn \
     vendor/sony/sm8550-common/proprietary/vendor/firmware/tzsuntory.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsuntory.mbn \
     vendor/sony/sm8550-common/proprietary/vendor/firmware/tztpm.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/tztpm.mbn \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/vpu30_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v.mbn \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/vpu30_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v_unsigned.mbn \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/vpu33_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu33_4v.mbn \
+    vendor/sony/sm8550-common/proprietary/vendor/firmware/vpu33_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu33_4v_unsigned.mbn \
     vendor/sony/sm8550-common/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
     vendor/sony/sm8550-common/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
     vendor/sony/sm8550-common/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
     vendor/sony/sm8550-common/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
+    vendor/sony/sm8550-common/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
+    vendor/sony/sm8550-common/proprietary/vendor/lib64/camera/com.sony.sensormodule.maunakea_imx563.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.sensormodule.maunakea_imx563.bin \
+    vendor/sony/sm8550-common/proprietary/vendor/lib64/camera/com.sony.sensormodule.maunakea_imx888.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.sensormodule.maunakea_imx888.bin \
+    vendor/sony/sm8550-common/proprietary/vendor/lib64/camera/com.sony.tuned.crocus_imx663.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.tuned.crocus_imx663.bin \
+    vendor/sony/sm8550-common/proprietary/vendor/lib64/camera/com.sony.tuned.maunakea_imx563.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.tuned.maunakea_imx563.bin \
+    vendor/sony/sm8550-common/proprietary/vendor/lib64/camera/com.sony.tuned.maunakea_imx888.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.tuned.maunakea_imx888.bin \
+    vendor/sony/sm8550-common/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
+    vendor/sony/sm8550-common/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
+    vendor/sony/sm8550-common/proprietary/vendor/lib64/camera/fdconfigsecure.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigsecure.bin \
+    vendor/sony/sm8550-common/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
+    vendor/sony/sm8550-common/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
+    vendor/sony/sm8550-common/proprietary/vendor/lib64/camera/imx688.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/imx688.pb \
     vendor/sony/sm8550-common/proprietary/vendor/usr/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
     vendor.qti.hardware.fm-V1-ndk \
+    libQnnHtp.cameraqnn \
+    libQnnHtpV73Stub.cameraqnn \
     android.hardware.secure_element@1.0-impl \
     btaudio_offload_if \
+    com.qti.hvx.addconstant \
+    com.qti.hvx.binning \
+    libdepthmapwrapper \
+    camx.device-impl \
+    camx.provider-impl \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@1.0 \
     com.qualcomm.qti.imscmservice@2.0 \
@@ -468,6 +680,7 @@ PRODUCT_PACKAGES += \
     libQtiRilLoadable \
     libRbsFlow \
     libSNPE \
+    libSnpeHtpPrepare \
     libSnpeHtpV73Stub \
     libSonyDisplayProperties \
     libTouchInputVM \
@@ -489,6 +702,12 @@ PRODUCT_PACKAGES += \
     libapengine \
     libappclassifier \
     libar-pal \
+    libarcsoft_dualcam_refocus_image \
+    libarcsoft_dualcam_refocus_video \
+    libarcsoft_hdr_adapter \
+    libarcsoft_high_dynamic_range_v5 \
+    libarcsoft_low_light_hdr \
+    libarcsoft_qnnhtp \
     libaudio_log_utils \
     libbacklight-calib \
     libbatching \
@@ -499,6 +718,9 @@ PRODUCT_PACKAGES += \
     libbtnv \
     libc++_shared \
     libcacertclient \
+    libcammw_util \
+    libcamxfacialfeatures \
+    libcamxfdalgo \
     libcapiv2svacnnvendor \
     libcapiv2svarnnvendor \
     libcapiv2udk7vendor \
@@ -507,6 +729,7 @@ PRODUCT_PACKAGES += \
     libcdfw_remote_api \
     libcdsp_default_listener \
     libcdsprpc \
+    libchilog \
     libclstc_algorithm_adapter \
     libclstc_gcp_adapter \
     libclstc_hdr \
@@ -519,6 +742,7 @@ PRODUCT_PACKAGES += \
     libcpion \
     libcv_common \
     libdataitems \
+    libdepthcomputation \
     libdevice_security_vendor \
     libdiag \
     libdigital-dimming \
@@ -555,6 +779,7 @@ PRODUCT_PACKAGES += \
     libgsl \
     libhdcpsrm \
     libhdr_backlight_adapter \
+    libhdr_stub \
     libhdr_tm \
     libidd \
     libidl \
@@ -605,6 +830,7 @@ PRODUCT_PACKAGES += \
     libmemutils \
     libmeters-ns \
     libmeters \
+    libmfGhostDetection \
     libminkdescriptor \
     libminksocket_vendor \
     libmiscta \
@@ -612,6 +838,9 @@ PRODUCT_PACKAGES += \
     libmmosal_vendor \
     libmmrtpdecoder_vendor \
     libmmrtpencoder_vendor \
+    libmorpho_single_camera \
+    libmpbase \
+    libnanopb \
     libnetmgr \
     libnetmgr_common \
     libnetmgr_datapath_proxy \
@@ -626,7 +855,9 @@ PRODUCT_PACKAGES += \
     libnetmgrxfrmutils \
     libnlnetmgr \
     liboemcrypto \
+    libopencv3a \
     libops \
+    libos \
     libpal_net_if \
     libpdmapper \
     libpdnotifier \
@@ -713,6 +944,7 @@ PRODUCT_PACKAGES += \
     libqrtr \
     libqrtrclient \
     libqseed3 \
+    libqshcamera \
     libqsocket \
     libqti-iopd-client \
     libqti-iopd \
@@ -748,6 +980,7 @@ PRODUCT_PACKAGES += \
     libsecureui_svcsock \
     libsensorcal \
     libsensorslog \
+    libsfeShiftExtrapolation \
     libshsc \
     libsi \
     libsilkyscrolls \
@@ -762,9 +995,50 @@ PRODUCT_PACKAGES += \
     libsnsdiaglog \
     libsnsutils \
     libsoc_helper \
+    libsomc_aerial \
+    libsomc_alfortlpserv \
+    libsomc_angelpie \
+    libsomc_baran \
+    libsomc_buttercakersc \
+    libsomc_camerapal \
+    libsomc_cheesesconersc \
+    libsomc_chokoballkeymgr \
+    libsomc_cornfrosty \
+    libsomc_donutscmnserv \
+    libsomc_dropsrsc \
+    libsomc_facewrapper \
+    libsomc_flicker \
+    libsomc_formatconverterrsc \
+    libsomc_histogramrsc \
+    libsomc_madeleinebase \
+    libsomc_marblersc \
+    libsomc_oshirukoserv \
+    libsomc_parisbrestrsc \
+    libsomc_pdnserv \
+    libsomc_pockyrsc \
+    libsomc_pretzchocorsc \
+    libsomc_raisinclrsc \
+    libsomc_sheera \
+    libsomc_shortcakersc \
+    libsomc_soda \
+    libsomc_sukonbu \
+    libsomc_sumomorsc \
+    libsomc_thermal \
+    libsomc_wasabeef \
+    libsomc_yummyrsc \
+    libsomc_zunda \
+    libsony_animaleye \
+    libsony_asr \
+    libsony_cc \
+    libsony_ec \
+    libsony_facestab \
+    libsony_fc \
+    libsony_naruto \
+    libsony_stab \
     libsonydseehxwrapper \
     libspc_vendor \
     libspcom \
+    libspectre \
     libspl \
     libsplh \
     libssc \
@@ -773,7 +1047,9 @@ PRODUCT_PACKAGES += \
     libsubsystem_control \
     libsuntory \
     libswiqisettinghelper \
+    libswregistrationalgo \
     libsynergy_loc_api \
+    libsynx \
     libsys-utils \
     libsys_info_cache \
     libsysmon_cdsp_skel \
@@ -782,6 +1058,7 @@ PRODUCT_PACKAGES += \
     libtestutils \
     libthermal_engine \
     libthermalclient \
+    libthreadutils \
     libtime_genoff \
     libtinyxml2_1 \
     libtpm \
@@ -1256,6 +1533,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@2.0-service.xml \
     vendor.qti.hardware.wifidisplaysession-service.xml \
     vendor.semc.hardware.extlight-somc.xml \
+    vendor.somc.hardware.camera.provider.manifest.xml \
     vendor.somc.hardware.videoeffect.xml \
     adpl \
     adsprpcd \
@@ -1370,6 +1648,10 @@ PRODUCT_PACKAGES += \
     system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
     system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
     system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so \
+    vendor_firmware_kiwi_bdwlan_e17 \
+    vendor_firmware_kiwi_bdwlan_e30 \
+    vendor_firmware_kiwi_bdwlan_e31 \
+    vendor_firmware_kiwi_regdb_bin \
     vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
     vendor_lib64_libq3dtools_adreno_so
