@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8550-common/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/sony/sm8550-common/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd \
     vendor/sony/sm8550-common/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    vendor/sony/sm8550-common/proprietary/vendor/etc/audio/sku_kalama/mixer_paths_kalama_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths_kalama_qrd.xml \
     vendor/sony/sm8550-common/proprietary/vendor/etc/audio/sku_kalama/resourcemanager_kalama_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/resourcemanager_kalama_qrd.xml \
     vendor/sony/sm8550-common/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/sony/sm8550-common/proprietary/vendor/etc/batching.conf:$(TARGET_COPY_OUT_VENDOR)/etc/batching.conf \
@@ -285,7 +284,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8550-common/proprietary/vendor/etc/security/idd_report.pem:$(TARGET_COPY_OUT_VENDOR)/etc/security/idd_report.pem \
     vendor/sony/sm8550-common/proprietary/vendor/etc/sensors/config/kailua_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_ak991x_0.json \
     vendor/sony/sm8550-common/proprietary/vendor/etc/sensors/config/kailua_ak991x_0_somc_platform.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_ak991x_0_somc_platform.json \
-    vendor/sony/sm8550-common/proprietary/vendor/etc/sensors/config/kailua_ak991x_0_somc_product.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_ak991x_0_somc_product.json \
     vendor/sony/sm8550-common/proprietary/vendor/etc/sensors/config/kailua_bmp5_0_somc_platform.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_bmp5_0_somc_platform.json \
     vendor/sony/sm8550-common/proprietary/vendor/etc/sensors/config/kailua_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_bu52053nvx_0.json \
     vendor/sony/sm8550-common/proprietary/vendor/etc/sensors/config/kailua_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_default_sensors.json \
